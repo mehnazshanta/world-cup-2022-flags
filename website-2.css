@@ -1,0 +1,37 @@
+.flags {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr); 
+   grid-column-gap: 171px;
+   grid-row-gap: 50px;
+}
+.flag-image{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 12px;
+}
+
+.flag-collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 80px;
+}
+
+.match-info{
+    text-align: center;
+}
+
+/* Side bar */
+.flag-side-bar {
+    background-color: black;
+    height: 350px;
+    width: 254px;
+    border-radius: 10px;
+    margin-left: 60px;
+    padding: 10px;
+    text-align: center;
+    /* align-items: center; */
+
+}
